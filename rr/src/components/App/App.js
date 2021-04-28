@@ -30,7 +30,7 @@ function App() {
           <Route exact path="/whale">
             <Whale />
           </Route> 
-          <Route path="/whale/:type">
+          <Route path="/whale">
             <Whale />
           </Route>
        </Switch>
